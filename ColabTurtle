@@ -1,0 +1,30 @@
+!pip3 install ColabTurtle
+from ColabTurtle.Turtle import *
+
+initializeTurtle()
+
+right(90)
+
+for i in range(6):
+    forward(80)
+    left(60)
+
+initializeTurtle()
+
+right(90)
+
+for i in range(6):
+    forward(80)
+    left(60)
+
+for i in range(6):
+    forward(80)
+    left(-60)
+
+right(120)
+
+for i in range(6):
+    forward(80)
+    left(-60)
+
+right(120)
